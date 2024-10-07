@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-    baseURL: 'https://pr-server-two.vercel.app',
+    baseURL: 'https://pull-critique.onrender.com',
     withCredentials: true
 })
 

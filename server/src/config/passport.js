@@ -8,7 +8,7 @@ dotenv.config()
 passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
-    callbackURL: "https://pr-server-two.vercel.app/auth/github/callback"
+    callbackURL: "https://pull-critique.onrender.com/auth/github/callback"
 },
     async (accessToken, refreshToken, profile, done) => {
         try {

@@ -1,6 +1,6 @@
 const OAuthButton = () => {
 	const handleOAuth = () => {
-		window.location.href = "https://pr-server-two.vercel.app/auth/github";
+		window.location.href = "https://pull-critique.onrender.com/auth/github";
 	};
 
 	return (
