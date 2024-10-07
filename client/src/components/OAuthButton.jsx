@@ -1,6 +1,6 @@
 const OAuthButton = () => {
 	const handleOAuth = () => {
-		window.location.href = "http://localhost:3000/auth/github";
+		window.location.href = "https://pr-server-two.vercel.app/auth/github";
 	};
 
 	return (
